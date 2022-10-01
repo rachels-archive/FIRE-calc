@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    display: table;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fire-calc {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: palatino, serif;
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 50px;
+    padding: 50px;
+    background-color: white;
+}
+
+.fire-calc-title:after {
+    content: "\1F4C8";
+}
+
+.fire-calc-title:before {
+    content: "\1F525";
+}
+
+
+.fire-calc-form {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+
+.fire-calc-form input {
+    font-size: 1.1rem;
+    font-family: palatino, serif;
+}
+
+.fire-calc-details {
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    padding: 5px 0;
+}
